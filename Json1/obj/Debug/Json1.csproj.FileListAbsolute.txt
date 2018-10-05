@@ -1,0 +1,10 @@
+F:\dotnet1\Json1\Json1\bin\Debug\Json1.exe.config
+F:\dotnet1\Json1\Json1\bin\Debug\Json1.exe
+F:\dotnet1\Json1\Json1\bin\Debug\Json1.pdb
+F:\dotnet1\Json1\Json1\obj\Debug\Json1.csprojAssemblyReference.cache
+F:\dotnet1\Json1\Json1\obj\Debug\Json1.csproj.CoreCompileInputs.cache
+F:\dotnet1\Json1\Json1\obj\Debug\Json1.exe
+F:\dotnet1\Json1\Json1\obj\Debug\Json1.pdb
+F:\dotnet1\Json1\Json1\bin\Debug\Newtonsoft.Json.dll
+F:\dotnet1\Json1\Json1\bin\Debug\Newtonsoft.Json.xml
+F:\dotnet1\Json1\Json1\obj\Debug\Json1.csproj.CopyComplete

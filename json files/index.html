@@ -1,0 +1,15 @@
+
+
+
+
+
+<script>
+
+var myJSON = '{ "firstName": { "display_name":"FIRST NAME:", "format":"string", "type":"textbox", "dflt":"null", "isMandatory":"true" } }';
+
+ var firstName = $.parseJSON(myJSON).firstName; //get firstName object
+ if (firstName.type == "textbox") {
+   $('<label>').attr({for: 'first_name'}).text(firstName.display_name).appendTo($('body'));
+   $('<input>').attr({type: 'text', id:'first_name'}).appendTo($('body'));
+ }
+ </script>

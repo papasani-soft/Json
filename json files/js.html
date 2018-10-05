@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Jstohtml</title>
+ </head>
+ <body>
+  <p id="demo"></p>
+ </body>
+</html>
+<script>
+
+
+var obj, j,i, x = "";
+/*myObj =  {"name","John", "age":30, "car":null};*/
+
+obj= {"person": [
+        {"name":"hari", "details":["tiru ", "ong ", "23015 "]},
+        {"name":"manu", "details":["hyd ", "andra ", "524552 "]},
+        {"name":"venu", "details":["bang ", "kar "] }]
+}
+	 
+for (i in obj.person) 
+{
+    x += "<h3>"+ obj.person[i].name+"  "+"<h3>"+"Address: " ;
+    for (j in obj.person[i].details)
+	{
+        x += obj.person[i].details[j] ;
+    }
+	x += "<br>";
+}
+
+document.getElementById("demo").innerHTML = x;
+
+
+</script>

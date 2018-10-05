@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>jsontohtm</title>
+ </head>
+ <body>
+  <p id="demo"></p>
+ </body>
+</html>
+<script>
+		var txt,x="";
+		/*var firstName="firstName":{"input":{"type":"text","name":"firstName"}}*/
+		var firstName="firstName":{"input":{"type":"text","name":"firstName"}}
+
+var obj = JSON.parse(firstName);
+document.getElementById("demo").innerHTML = obj.firstName + ", " + obj.age;
+</script>
